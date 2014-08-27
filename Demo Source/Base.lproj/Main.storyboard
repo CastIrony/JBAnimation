@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovN-z9-Dte">
+                                <rect key="frame" x="0.0" y="504" width="320" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="sjk-oI-Gsd"/>
+                                </constraints>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reloadButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Lp-Nc-Xtu"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A4d-5u-oRZ">
+                                <rect key="frame" x="0.0" y="20" width="320" height="482"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="1000" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a6N-cn-b5H" customClass="JBStackView">
+                                        <rect key="frame" x="0.0" y="88" width="320" height="306"/>
+                                        <color key="backgroundColor" red="0.0135" green="0.81000000000000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="Lm7-AM-NFn"/>
+                                        </connections>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="a6N-cn-b5H" firstAttribute="top" secondItem="A4d-5u-oRZ" secondAttribute="top" constant="88" id="4Uz-iR-yCk"/>
+                                    <constraint firstAttribute="trailing" secondItem="a6N-cn-b5H" secondAttribute="trailing" id="MAL-vr-XCL"/>
+                                    <constraint firstItem="a6N-cn-b5H" firstAttribute="leading" secondItem="A4d-5u-oRZ" secondAttribute="leading" id="mgR-Nn-dep"/>
+                                    <constraint firstAttribute="bottom" secondItem="a6N-cn-b5H" secondAttribute="bottom" constant="88" id="wfN-Zq-sEE"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="A4d-5u-oRZ" secondAttribute="trailing" id="0Aj-pr-HXr"/>
+                            <constraint firstAttribute="trailing" secondItem="ovN-z9-Dte" secondAttribute="trailing" id="22e-wy-Kou"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ovN-z9-Dte" secondAttribute="bottom" id="6Sa-3Q-4xl"/>
+                            <constraint firstItem="A4d-5u-oRZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="BtU-pC-C4X"/>
+                            <constraint firstAttribute="centerX" secondItem="ovN-z9-Dte" secondAttribute="centerX" id="PzZ-38-kxd"/>
+                            <constraint firstItem="A4d-5u-oRZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YFa-Cy-XoR"/>
+                            <constraint firstItem="ovN-z9-Dte" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZyZ-ZU-wKZ"/>
+                            <constraint firstItem="ovN-z9-Dte" firstAttribute="top" secondItem="A4d-5u-oRZ" secondAttribute="bottom" id="y37-PJ-LKP"/>
+                        </constraints>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="stackView" destination="a6N-cn-b5H" id="v2e-jj-pC2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134" y="360"/>
+        </scene>
+    </scenes>
+</document>

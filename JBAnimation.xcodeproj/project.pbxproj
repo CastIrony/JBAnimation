@@ -7,26 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81041A6B1956318800E3A4CA /* JBStackRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 81041A691956318800E3A4CA /* JBStackRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81041A6C1956318800E3A4CA /* JBStackRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 81041A6A1956318800E3A4CA /* JBStackRow.m */; };
 		811B48471953614F00308EFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 811B48461953614F00308EFD /* main.m */; };
 		811B484A1953614F00308EFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 811B48491953614F00308EFD /* AppDelegate.m */; };
 		811B484D1953614F00308EFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 811B484C1953614F00308EFD /* ViewController.m */; };
 		811B48501953614F00308EFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811B484E1953614F00308EFD /* Main.storyboard */; };
 		811B48521953614F00308EFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811B48511953614F00308EFD /* Images.xcassets */; };
-		811B485E1953614F00308EFD /* JBAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 811B485D1953614F00308EFD /* JBAnimationTests.m */; };
+		811B488E195361CA00308EFD /* JBAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 811B488D195361CA00308EFD /* JBAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811B489E195361CA00308EFD /* JBAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811B4889195361CA00308EFD /* JBAnimation.framework */; };
+		811B489F195361CA00308EFD /* JBAnimation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 811B4889195361CA00308EFD /* JBAnimation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		811B48B61953669700308EFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 811B48B51953669700308EFD /* QuartzCore.framework */; };
+		811B48BB19536D5000308EFD /* JBStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 811B486E1953615F00308EFD /* JBStackView.m */; };
+		811B48BC19536D5300308EFD /* JBCompletionGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 811B48701953615F00308EFD /* JBCompletionGroup.m */; };
+		811B48BD19536D5600308EFD /* NSArray+JBDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 811B48721953615F00308EFD /* NSArray+JBDiff.m */; };
+		811B48BE19536D5A00308EFD /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 811B48741953615F00308EFD /* NSArray+Map.m */; };
+		811B48BF19536D5D00308EFD /* NSDictionary+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 811B48761953615F00308EFD /* NSDictionary+Map.m */; };
+		811B48C419536EF500308EFD /* JBStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 811B486D1953615F00308EFD /* JBStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811B48C519536EF700308EFD /* JBCompletionGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 811B486F1953615F00308EFD /* JBCompletionGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811B48C619536EFA00308EFD /* NSArray+JBDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 811B48711953615F00308EFD /* NSArray+JBDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811B48C719536EFC00308EFD /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 811B48731953615F00308EFD /* NSArray+Map.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811B48C819536EFF00308EFD /* NSDictionary+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = 811B48751953615F00308EFD /* NSDictionary+Map.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		811B48CB195384F900308EFD /* DemoRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 811B48CA195384F900308EFD /* DemoRowView.m */; };
+		811B48CD1953872600308EFD /* DemoRowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 811B48CC1953872600308EFD /* DemoRowView.xib */; };
+		81D90C2819AE8EA5002C366D /* JBDisplayContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D90C2619AE8EA5002C366D /* JBDisplayContainer.m */; };
+		81D90C2919AE8EA5002C366D /* JBDisplayContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D90C2719AE8EA5002C366D /* JBDisplayContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		811B48581953614F00308EFD /* PBXContainerItemProxy */ = {
+		811B489C195361CA00308EFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 811B48391953614F00308EFD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 811B48401953614F00308EFD;
+			remoteGlobalIDString = 811B4888195361CA00308EFD;
+			remoteInfo = JBAnimation;
+		};
+		811B48A0195361CA00308EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811B48391953614F00308EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811B4888195361CA00308EFD;
 			remoteInfo = JBAnimation;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		811B48A5195361CA00308EFD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				811B489F195361CA00308EFD /* JBAnimation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		811B48411953614F00308EFD /* JBAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81041A691956318800E3A4CA /* JBStackRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBStackRow.h; sourceTree = "<group>"; };
+		81041A6A1956318800E3A4CA /* JBStackRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBStackRow.m; sourceTree = "<group>"; };
+		81183ECE19591CA000E342E8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811B48411953614F00308EFD /* JBAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		811B48451953614F00308EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		811B48461953614F00308EFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		811B48481953614F00308EFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,9 +78,24 @@
 		811B484C1953614F00308EFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		811B484F1953614F00308EFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		811B48511953614F00308EFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		811B48571953614F00308EFD /* JBAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JBAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		811B485C1953614F00308EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		811B485D1953614F00308EFD /* JBAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBAnimationTests.m; sourceTree = "<group>"; };
+		811B486D1953615F00308EFD /* JBStackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBStackView.h; sourceTree = "<group>"; };
+		811B486E1953615F00308EFD /* JBStackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBStackView.m; sourceTree = "<group>"; };
+		811B486F1953615F00308EFD /* JBCompletionGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBCompletionGroup.h; sourceTree = "<group>"; };
+		811B48701953615F00308EFD /* JBCompletionGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBCompletionGroup.m; sourceTree = "<group>"; };
+		811B48711953615F00308EFD /* NSArray+JBDiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JBDiff.h"; sourceTree = "<group>"; };
+		811B48721953615F00308EFD /* NSArray+JBDiff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JBDiff.m"; sourceTree = "<group>"; };
+		811B48731953615F00308EFD /* NSArray+Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Map.h"; sourceTree = "<group>"; };
+		811B48741953615F00308EFD /* NSArray+Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Map.m"; sourceTree = "<group>"; };
+		811B48751953615F00308EFD /* NSDictionary+Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Map.h"; sourceTree = "<group>"; };
+		811B48761953615F00308EFD /* NSDictionary+Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Map.m"; sourceTree = "<group>"; };
+		811B4889195361CA00308EFD /* JBAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JBAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		811B488D195361CA00308EFD /* JBAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JBAnimation.h; sourceTree = "<group>"; };
+		811B48B51953669700308EFD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		811B48C9195384F900308EFD /* DemoRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoRowView.h; sourceTree = "<group>"; };
+		811B48CA195384F900308EFD /* DemoRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoRowView.m; sourceTree = "<group>"; };
+		811B48CC1953872600308EFD /* DemoRowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoRowView.xib; sourceTree = "<group>"; };
+		81D90C2619AE8EA5002C366D /* JBDisplayContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBDisplayContainer.m; sourceTree = "<group>"; };
+		81D90C2719AE8EA5002C366D /* JBDisplayContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBDisplayContainer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,13 +103,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811B489E195361CA00308EFD /* JBAnimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		811B48541953614F00308EFD /* Frameworks */ = {
+		811B4885195361CA00308EFD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811B48B61953669700308EFD /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,8 +121,8 @@
 		811B48381953614F00308EFD = {
 			isa = PBXGroup;
 			children = (
-				811B48431953614F00308EFD /* JBAnimation */,
-				811B485A1953614F00308EFD /* JBAnimationTests */,
+				811B48431953614F00308EFD /* Demo Source */,
+				811B488A195361CA00308EFD /* JBAnimation */,
 				811B48421953614F00308EFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,62 +130,119 @@
 		811B48421953614F00308EFD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				811B48411953614F00308EFD /* JBAnimation.app */,
-				811B48571953614F00308EFD /* JBAnimationTests.xctest */,
+				811B48411953614F00308EFD /* JBAnimationDemo.app */,
+				811B4889195361CA00308EFD /* JBAnimation.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		811B48431953614F00308EFD /* JBAnimation */ = {
+		811B48431953614F00308EFD /* Demo Source */ = {
 			isa = PBXGroup;
 			children = (
+				811B48461953614F00308EFD /* main.m */,
 				811B48481953614F00308EFD /* AppDelegate.h */,
 				811B48491953614F00308EFD /* AppDelegate.m */,
+				811B484E1953614F00308EFD /* Main.storyboard */,
 				811B484B1953614F00308EFD /* ViewController.h */,
 				811B484C1953614F00308EFD /* ViewController.m */,
-				811B484E1953614F00308EFD /* Main.storyboard */,
+				811B48C9195384F900308EFD /* DemoRowView.h */,
+				811B48CA195384F900308EFD /* DemoRowView.m */,
+				811B48CC1953872600308EFD /* DemoRowView.xib */,
 				811B48511953614F00308EFD /* Images.xcassets */,
 				811B48441953614F00308EFD /* Supporting Files */,
 			);
-			path = JBAnimation;
+			path = "Demo Source";
 			sourceTree = "<group>";
 		};
 		811B48441953614F00308EFD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				811B48451953614F00308EFD /* Info.plist */,
-				811B48461953614F00308EFD /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		811B485A1953614F00308EFD /* JBAnimationTests */ = {
+		811B488A195361CA00308EFD /* JBAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				811B485D1953614F00308EFD /* JBAnimationTests.m */,
-				811B485B1953614F00308EFD /* Supporting Files */,
+				811B488D195361CA00308EFD /* JBAnimation.h */,
+				81D90C2719AE8EA5002C366D /* JBDisplayContainer.h */,
+				81D90C2619AE8EA5002C366D /* JBDisplayContainer.m */,
+				811B486D1953615F00308EFD /* JBStackView.h */,
+				811B486E1953615F00308EFD /* JBStackView.m */,
+				81041A691956318800E3A4CA /* JBStackRow.h */,
+				81041A6A1956318800E3A4CA /* JBStackRow.m */,
+				811B486F1953615F00308EFD /* JBCompletionGroup.h */,
+				811B48701953615F00308EFD /* JBCompletionGroup.m */,
+				811B48711953615F00308EFD /* NSArray+JBDiff.h */,
+				811B48721953615F00308EFD /* NSArray+JBDiff.m */,
+				811B48731953615F00308EFD /* NSArray+Map.h */,
+				811B48741953615F00308EFD /* NSArray+Map.m */,
+				811B48751953615F00308EFD /* NSDictionary+Map.h */,
+				811B48761953615F00308EFD /* NSDictionary+Map.m */,
+				811B488B195361CA00308EFD /* Supporting Files */,
 			);
-			path = JBAnimationTests;
+			path = JBAnimation;
 			sourceTree = "<group>";
 		};
-		811B485B1953614F00308EFD /* Supporting Files */ = {
+		811B488B195361CA00308EFD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				811B485C1953614F00308EFD /* Info.plist */,
+				81183ECE19591CA000E342E8 /* Info.plist */,
+				811B48B51953669700308EFD /* QuartzCore.framework */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		811B4886195361CA00308EFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811B488E195361CA00308EFD /* JBAnimation.h in Headers */,
+				811B48C519536EF700308EFD /* JBCompletionGroup.h in Headers */,
+				811B48C419536EF500308EFD /* JBStackView.h in Headers */,
+				81041A6B1956318800E3A4CA /* JBStackRow.h in Headers */,
+				811B48C619536EFA00308EFD /* NSArray+JBDiff.h in Headers */,
+				811B48C719536EFC00308EFD /* NSArray+Map.h in Headers */,
+				811B48C819536EFF00308EFD /* NSDictionary+Map.h in Headers */,
+				81D90C2919AE8EA5002C366D /* JBDisplayContainer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		811B48401953614F00308EFD /* JBAnimation */ = {
+		811B48401953614F00308EFD /* JBAnimationDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 811B48611953614F00308EFD /* Build configuration list for PBXNativeTarget "JBAnimation" */;
+			buildConfigurationList = 811B48611953614F00308EFD /* Build configuration list for PBXNativeTarget "JBAnimationDemo" */;
 			buildPhases = (
 				811B483D1953614F00308EFD /* Sources */,
 				811B483E1953614F00308EFD /* Frameworks */,
 				811B483F1953614F00308EFD /* Resources */,
+				811B48A5195361CA00308EFD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811B489D195361CA00308EFD /* PBXTargetDependency */,
+				811B48A1195361CA00308EFD /* PBXTargetDependency */,
+			);
+			name = JBAnimationDemo;
+			productName = JBAnimation;
+			productReference = 811B48411953614F00308EFD /* JBAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		811B4888195361CA00308EFD /* JBAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811B48A2195361CA00308EFD /* Build configuration list for PBXNativeTarget "JBAnimation" */;
+			buildPhases = (
+				811B4884195361CA00308EFD /* Sources */,
+				811B4885195361CA00308EFD /* Frameworks */,
+				811B4886195361CA00308EFD /* Headers */,
+				811B4887195361CA00308EFD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -133,26 +250,8 @@
 			);
 			name = JBAnimation;
 			productName = JBAnimation;
-			productReference = 811B48411953614F00308EFD /* JBAnimation.app */;
-			productType = "com.apple.product-type.application";
-		};
-		811B48561953614F00308EFD /* JBAnimationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 811B48641953614F00308EFD /* Build configuration list for PBXNativeTarget "JBAnimationTests" */;
-			buildPhases = (
-				811B48531953614F00308EFD /* Sources */,
-				811B48541953614F00308EFD /* Frameworks */,
-				811B48551953614F00308EFD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				811B48591953614F00308EFD /* PBXTargetDependency */,
-			);
-			name = JBAnimationTests;
-			productName = JBAnimationTests;
-			productReference = 811B48571953614F00308EFD /* JBAnimationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			productReference = 811B4889195361CA00308EFD /* JBAnimation.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -166,9 +265,9 @@
 					811B48401953614F00308EFD = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					811B48561953614F00308EFD = {
+					811B4888195361CA00308EFD = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 811B48401953614F00308EFD;
+						DevelopmentTeam = F7L4RR4JLD;
 					};
 				};
 			};
@@ -185,8 +284,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				811B48401953614F00308EFD /* JBAnimation */,
-				811B48561953614F00308EFD /* JBAnimationTests */,
+				811B48401953614F00308EFD /* JBAnimationDemo */,
+				811B4888195361CA00308EFD /* JBAnimation */,
 			);
 		};
 /* End PBXProject section */
@@ -198,10 +297,11 @@
 			files = (
 				811B48501953614F00308EFD /* Main.storyboard in Resources */,
 				811B48521953614F00308EFD /* Images.xcassets in Resources */,
+				811B48CD1953872600308EFD /* DemoRowView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		811B48551953614F00308EFD /* Resources */ = {
+		811B4887195361CA00308EFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,27 +315,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				811B48CB195384F900308EFD /* DemoRowView.m in Sources */,
 				811B484D1953614F00308EFD /* ViewController.m in Sources */,
 				811B484A1953614F00308EFD /* AppDelegate.m in Sources */,
 				811B48471953614F00308EFD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		811B48531953614F00308EFD /* Sources */ = {
+		811B4884195361CA00308EFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				811B485E1953614F00308EFD /* JBAnimationTests.m in Sources */,
+				811B48BD19536D5600308EFD /* NSArray+JBDiff.m in Sources */,
+				811B48BB19536D5000308EFD /* JBStackView.m in Sources */,
+				81041A6C1956318800E3A4CA /* JBStackRow.m in Sources */,
+				811B48BE19536D5A00308EFD /* NSArray+Map.m in Sources */,
+				811B48BC19536D5300308EFD /* JBCompletionGroup.m in Sources */,
+				811B48BF19536D5D00308EFD /* NSDictionary+Map.m in Sources */,
+				81D90C2819AE8EA5002C366D /* JBDisplayContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		811B48591953614F00308EFD /* PBXTargetDependency */ = {
+		811B489D195361CA00308EFD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 811B48401953614F00308EFD /* JBAnimation */;
-			targetProxy = 811B48581953614F00308EFD /* PBXContainerItemProxy */;
+			target = 811B4888195361CA00308EFD /* JBAnimation */;
+			targetProxy = 811B489C195361CA00308EFD /* PBXContainerItemProxy */;
+		};
+		811B48A1195361CA00308EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811B4888195361CA00308EFD /* JBAnimation */;
+			targetProxy = 811B48A0195361CA00308EFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -351,39 +463,55 @@
 			};
 			name = Release;
 		};
-		811B48651953614F00308EFD /* Debug */ = {
+		811B48A3195361CA00308EFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JBAnimation.app/JBAnimation";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = JBAnimationTests/Info.plist;
+				INFOPLIST_FILE = JBAnimation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		811B48661953614F00308EFD /* Release */ = {
+		811B48A4195361CA00308EFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JBAnimation.app/JBAnimation";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = JBAnimationTests/Info.plist;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JBAnimation/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -399,21 +527,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		811B48611953614F00308EFD /* Build configuration list for PBXNativeTarget "JBAnimation" */ = {
+		811B48611953614F00308EFD /* Build configuration list for PBXNativeTarget "JBAnimationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				811B48621953614F00308EFD /* Debug */,
 				811B48631953614F00308EFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		811B48641953614F00308EFD /* Build configuration list for PBXNativeTarget "JBAnimationTests" */ = {
+		811B48A2195361CA00308EFD /* Build configuration list for PBXNativeTarget "JBAnimation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				811B48651953614F00308EFD /* Debug */,
-				811B48661953614F00308EFD /* Release */,
+				811B48A3195361CA00308EFD /* Debug */,
+				811B48A4195361CA00308EFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

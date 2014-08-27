@@ -6,9 +6,11 @@
 //  Copyright (c) 2014 Joel Bernstein. All rights reserved.
 //
 
+#import <JBAnimation/JBAnimation.h>
+
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <JBStackViewDelegate, UIScrollViewDelegate>
 
 
 @end
